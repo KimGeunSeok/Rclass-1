@@ -1,0 +1,1000 @@
+[1] stats     graphics  grDevices utils    
+[5] datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.0.3 tools_4.0.3   
+> install.packages(stringr)
+Error in install.packages : 객체 'stringr'를 찾을 수 없습니다
+> install.packages("stringr")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/4.0’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘glue’, ‘magrittr’, ‘stringi’
+
+
+  There is a binary version available
+  but the source version is later:
+         binary source needs_compilation
+magrittr    1.5  2.0.1              TRUE
+
+  Binaries will be installed
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/glue_1.4.2.zip'을 시도합니다
+Content type 'application/zip' length 154817 bytes (151 KB)
+downloaded 151 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/magrittr_1.5.zip'을 시도합니다
+Content type 'application/zip' length 157529 bytes (153 KB)
+downloaded 153 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/stringi_1.5.3.zip'을 시도합니다
+Content type 'application/zip' length 15243599 bytes (14.5 MB)
+downloaded 14.5 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/stringr_1.4.0.zip'을 시도합니다
+Content type 'application/zip' length 216472 bytes (211 KB)
+downloaded 211 KB
+
+package ‘glue’ successfully unpacked and MD5 sums checked
+package ‘magrittr’ successfully unpacked and MD5 sums checked
+package ‘stringi’ successfully unpacked and MD5 sums checked
+package ‘stringr’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\RtmpsvOMcH\downloaded_packages
+> installed.packages() #설치된 패키지 확인
+             Package       
+glue         "glue"        
+magrittr     "magrittr"    
+stringi      "stringi"     
+stringr      "stringr"     
+base         "base"        
+boot         "boot"        
+class        "class"       
+cluster      "cluster"     
+codetools    "codetools"   
+compiler     "compiler"    
+datasets     "datasets"    
+foreign      "foreign"     
+graphics     "graphics"    
+grDevices    "grDevices"   
+grid         "grid"        
+KernSmooth   "KernSmooth"  
+lattice      "lattice"     
+MASS         "MASS"        
+Matrix       "Matrix"      
+methods      "methods"     
+mgcv         "mgcv"        
+nlme         "nlme"        
+nnet         "nnet"        
+parallel     "parallel"    
+rpart        "rpart"       
+spatial      "spatial"     
+splines      "splines"     
+stats        "stats"       
+stats4       "stats4"      
+survival     "survival"    
+tcltk        "tcltk"       
+tools        "tools"       
+translations "translations"
+utils        "utils"       
+             LibPath                                     
+glue         "C:/Users/opus3/Documents/R/win-library/4.0"
+magrittr     "C:/Users/opus3/Documents/R/win-library/4.0"
+stringi      "C:/Users/opus3/Documents/R/win-library/4.0"
+stringr      "C:/Users/opus3/Documents/R/win-library/4.0"
+base         "C:/Program Files/R/R-4.0.3/library"        
+boot         "C:/Program Files/R/R-4.0.3/library"        
+class        "C:/Program Files/R/R-4.0.3/library"        
+cluster      "C:/Program Files/R/R-4.0.3/library"        
+codetools    "C:/Program Files/R/R-4.0.3/library"        
+compiler     "C:/Program Files/R/R-4.0.3/library"        
+datasets     "C:/Program Files/R/R-4.0.3/library"        
+foreign      "C:/Program Files/R/R-4.0.3/library"        
+graphics     "C:/Program Files/R/R-4.0.3/library"        
+grDevices    "C:/Program Files/R/R-4.0.3/library"        
+grid         "C:/Program Files/R/R-4.0.3/library"        
+KernSmooth   "C:/Program Files/R/R-4.0.3/library"        
+lattice      "C:/Program Files/R/R-4.0.3/library"        
+MASS         "C:/Program Files/R/R-4.0.3/library"        
+Matrix       "C:/Program Files/R/R-4.0.3/library"        
+methods      "C:/Program Files/R/R-4.0.3/library"        
+mgcv         "C:/Program Files/R/R-4.0.3/library"        
+nlme         "C:/Program Files/R/R-4.0.3/library"        
+nnet         "C:/Program Files/R/R-4.0.3/library"        
+parallel     "C:/Program Files/R/R-4.0.3/library"        
+rpart        "C:/Program Files/R/R-4.0.3/library"        
+spatial      "C:/Program Files/R/R-4.0.3/library"        
+splines      "C:/Program Files/R/R-4.0.3/library"        
+stats        "C:/Program Files/R/R-4.0.3/library"        
+stats4       "C:/Program Files/R/R-4.0.3/library"        
+survival     "C:/Program Files/R/R-4.0.3/library"        
+tcltk        "C:/Program Files/R/R-4.0.3/library"        
+tools        "C:/Program Files/R/R-4.0.3/library"        
+translations "C:/Program Files/R/R-4.0.3/library"        
+utils        "C:/Program Files/R/R-4.0.3/library"        
+             Version   Priority     
+glue         "1.4.2"   NA           
+magrittr     "1.5"     NA           
+stringi      "1.5.3"   NA           
+stringr      "1.4.0"   NA           
+base         "4.0.3"   "base"       
+boot         "1.3-25"  "recommended"
+class        "7.3-17"  "recommended"
+cluster      "2.1.0"   "recommended"
+codetools    "0.2-16"  "recommended"
+compiler     "4.0.3"   "base"       
+datasets     "4.0.3"   "base"       
+foreign      "0.8-80"  "recommended"
+graphics     "4.0.3"   "base"       
+grDevices    "4.0.3"   "base"       
+grid         "4.0.3"   "base"       
+KernSmooth   "2.23-17" "recommended"
+lattice      "0.20-41" "recommended"
+MASS         "7.3-53"  "recommended"
+Matrix       "1.2-18"  "recommended"
+methods      "4.0.3"   "base"       
+mgcv         "1.8-33"  "recommended"
+nlme         "3.1-149" "recommended"
+nnet         "7.3-14"  "recommended"
+parallel     "4.0.3"   "base"       
+rpart        "4.1-15"  "recommended"
+spatial      "7.3-12"  "recommended"
+splines      "4.0.3"   "base"       
+stats        "4.0.3"   "base"       
+stats4       "4.0.3"   "base"       
+survival     "3.2-7"   "recommended"
+tcltk        "4.0.3"   "base"       
+tools        "4.0.3"   "base"       
+translations "4.0.3"   NA           
+utils        "4.0.3"   "base"       
+             Depends                                          
+glue         "R (>= 3.2)"                                     
+magrittr     NA                                               
+stringi      "R (>= 2.14)"                                    
+stringr      "R (>= 3.1)"                                     
+base         NA                                               
+boot         "R (>= 3.0.0), graphics, stats"                  
+class        "R (>= 3.0.0), stats, utils"                     
+cluster      "R (>= 3.3.0)"                                   
+codetools    "R (>= 2.1)"                                     
+compiler     NA                                               
+datasets     NA                                               
+foreign      "R (>= 4.0.0)"                                   
+graphics     NA                                               
+grDevices    NA                                               
+grid         NA                                               
+KernSmooth   "R (>= 2.5.0), stats"                            
+lattice      "R (>= 3.0.0)"                                   
+MASS         "R (>= 3.1.0), grDevices, graphics, stats, utils"
+Matrix       "R (>= 3.2.0)"                                   
+methods      NA                                               
+mgcv         "R (>= 2.14.0), nlme (>= 3.1-64)"                
+nlme         "R (>= 3.4.0)"                                   
+nnet         "R (>= 3.0.0), stats, utils"                     
+parallel     NA                                               
+rpart        "R (>= 2.15.0), graphics, stats, grDevices"      
+spatial      "R (>= 3.0.0), graphics, stats, utils"           
+splines      NA                                               
+stats        NA                                               
+stats4       NA                                               
+survival     "R (>= 3.4.0)"                                   
+tcltk        NA                                               
+tools        NA                                               
+translations NA                                               
+utils        NA                                               
+             Imports                                           
+glue         "methods"                                         
+magrittr     NA                                                
+stringi      "tools, utils, stats"                             
+stringr      "glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)"   
+base         NA                                                
+boot         NA                                                
+class        "MASS"                                            
+cluster      "graphics, grDevices, stats, utils"               
+codetools    NA                                                
+compiler     NA                                                
+datasets     NA                                                
+foreign      "methods, utils, stats"                           
+graphics     "grDevices"                                       
+grDevices    NA                                                
+grid         "grDevices, utils"                                
+KernSmooth   NA                                                
+lattice      "grid, grDevices, graphics, stats, utils"         
+MASS         "methods"                                         
+Matrix       "methods, graphics, grid, stats, utils, lattice"  
+methods      "utils, stats"                                    
+mgcv         "methods, stats, graphics, Matrix, splines, utils"
+nlme         "graphics, stats, utils, lattice"                 
+nnet         NA                                                
+parallel     "tools, compiler"                                 
+rpart        NA                                                
+spatial      NA                                                
+splines      "graphics, stats"                                 
+stats        "utils, grDevices, graphics"                      
+stats4       "graphics, methods, stats"                        
+survival     "graphics, Matrix, methods, splines, stats, utils"
+tcltk        "utils"                                           
+tools        NA                                                
+translations NA                                                
+utils        NA                                                
+             LinkingTo
+glue         NA       
+magrittr     NA       
+stringi      NA       
+stringr      NA       
+base         NA       
+boot         NA       
+class        NA       
+cluster      NA       
+codetools    NA       
+compiler     NA       
+datasets     NA       
+foreign      NA       
+graphics     NA       
+grDevices    NA       
+grid         NA       
+KernSmooth   NA       
+lattice      NA       
+MASS         NA       
+Matrix       NA       
+methods      NA       
+mgcv         NA       
+nlme         NA       
+nnet         NA       
+parallel     NA       
+rpart        NA       
+spatial      NA       
+splines      NA       
+stats        NA       
+stats4       NA       
+survival     NA       
+tcltk        NA       
+tools        NA       
+translations NA       
+utils        NA       
+             Suggests                                                                                                                                                         
+glue         "testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,\nRSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,\nggplot2, dplyr, withr, vctrs (>= 0.3.0)"
+magrittr     "testthat, knitr"                                                                                                                                                
+stringi      NA                                                                                                                                                               
+stringr      "covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat"                                                                                                       
+base         "methods"                                                                                                                                                        
+boot         "MASS, survival"                                                                                                                                                 
+class        NA                                                                                                                                                               
+cluster      "MASS, Matrix"                                                                                                                                                   
+codetools    NA                                                                                                                                                               
+compiler     NA                                                                                                                                                               
+datasets     NA                                                                                                                                                               
+foreign      NA                                                                                                                                                               
+graphics     NA                                                                                                                                                               
+grDevices    "KernSmooth"                                                                                                                                                     
+grid         "lattice"                                                                                                                                                        
+KernSmooth   "MASS"                                                                                                                                                           
+lattice      "KernSmooth, MASS, latticeExtra"                                                                                                                                 
+MASS         "lattice, nlme, nnet, survival"                                                                                                                                  
+Matrix       "expm, MASS"                                                                                                                                                     
+methods      "codetools"                                                                                                                                                      
+mgcv         "parallel, survival, MASS"                                                                                                                                       
+nlme         "Hmisc, MASS"                                                                                                                                                    
+nnet         "MASS"                                                                                                                                                           
+parallel     "methods"                                                                                                                                                        
+rpart        "survival"                                                                                                                                                       
+spatial      "MASS"                                                                                                                                                           
+splines      "Matrix, methods"                                                                                                                                                
+stats        "MASS, Matrix, SuppDists, methods, stats4"                                                                                                                       
+stats4       NA                                                                                                                                                               
+survival     NA                                                                                                                                                               
+tcltk        NA                                                                                                                                                               
+tools        "codetools, methods, xml2, curl, commonmark"                                                                                                                     
+translations NA                                                                                                                                                               
+utils        "methods, xml2, commonmark"                                                                                                                                      
+             Enhances                               
+glue         NA                                     
+magrittr     NA                                     
+stringi      NA                                     
+stringr      NA                                     
+base         NA                                     
+boot         NA                                     
+class        NA                                     
+cluster      NA                                     
+codetools    NA                                     
+compiler     NA                                     
+datasets     NA                                     
+foreign      NA                                     
+graphics     NA                                     
+grDevices    NA                                     
+grid         NA                                     
+KernSmooth   NA                                     
+lattice      "chron"                                
+MASS         NA                                     
+Matrix       "MatrixModels, graph, SparseM, sfsmisc"
+methods      NA                                     
+mgcv         NA                                     
+nlme         NA                                     
+nnet         NA                                     
+parallel     "snow, nws, Rmpi"                      
+rpart        NA                                     
+spatial      NA                                     
+splines      NA                                     
+stats        NA                                     
+stats4       NA                                     
+survival     NA                                     
+tcltk        NA                                     
+tools        NA                                     
+translations NA                                     
+utils        NA                                     
+             License                    
+glue         "MIT + file LICENSE"       
+magrittr     "MIT + file LICENSE"       
+stringi      "file LICENSE"             
+stringr      "GPL-2 | file LICENSE"     
+base         "Part of R 4.0.3"          
+boot         "Unlimited"                
+class        "GPL-2 | GPL-3"            
+cluster      "GPL (>= 2)"               
+codetools    "GPL"                      
+compiler     "Part of R 4.0.3"          
+datasets     "Part of R 4.0.3"          
+foreign      "GPL (>= 2)"               
+graphics     "Part of R 4.0.3"          
+grDevices    "Part of R 4.0.3"          
+grid         "Part of R 4.0.3"          
+KernSmooth   "Unlimited"                
+lattice      "GPL (>= 2)"               
+MASS         "GPL-2 | GPL-3"            
+Matrix       "GPL (>= 2) | file LICENCE"
+methods      "Part of R 4.0.3"          
+mgcv         "GPL (>= 2)"               
+nlme         "GPL (>= 2) | file LICENCE"
+nnet         "GPL-2 | GPL-3"            
+parallel     "Part of R 4.0.3"          
+rpart        "GPL-2 | GPL-3"            
+spatial      "GPL-2 | GPL-3"            
+splines      "Part of R 4.0.3"          
+stats        "Part of R 4.0.3"          
+stats4       "Part of R 4.0.3"          
+survival     "LGPL (>= 2)"              
+tcltk        "Part of R 4.0.3"          
+tools        "Part of R 4.0.3"          
+translations "Part of R 4.0.3"          
+utils        "Part of R 4.0.3"          
+             License_is_FOSS
+glue         NA             
+magrittr     NA             
+stringi      NA             
+stringr      NA             
+base         NA             
+boot         NA             
+class        NA             
+cluster      NA             
+codetools    NA             
+compiler     NA             
+datasets     NA             
+foreign      NA             
+graphics     NA             
+grDevices    NA             
+grid         NA             
+KernSmooth   NA             
+lattice      NA             
+MASS         NA             
+Matrix       NA             
+methods      NA             
+mgcv         NA             
+nlme         NA             
+nnet         NA             
+parallel     NA             
+rpart        NA             
+spatial      NA             
+splines      NA             
+stats        NA             
+stats4       NA             
+survival     NA             
+tcltk        NA             
+tools        NA             
+translations NA             
+utils        NA             
+             License_restricts_use OS_type
+glue         NA                    NA     
+magrittr     NA                    NA     
+stringi      NA                    NA     
+stringr      NA                    NA     
+base         NA                    NA     
+boot         NA                    NA     
+class        NA                    NA     
+cluster      NA                    NA     
+codetools    NA                    NA     
+compiler     NA                    NA     
+datasets     NA                    NA     
+foreign      NA                    NA     
+graphics     NA                    NA     
+grDevices    NA                    NA     
+grid         NA                    NA     
+KernSmooth   NA                    NA     
+lattice      NA                    NA     
+MASS         NA                    NA     
+Matrix       NA                    NA     
+methods      NA                    NA     
+mgcv         NA                    NA     
+nlme         NA                    NA     
+nnet         NA                    NA     
+parallel     NA                    NA     
+rpart        NA                    NA     
+spatial      NA                    NA     
+splines      NA                    NA     
+stats        NA                    NA     
+stats4       NA                    NA     
+survival     NA                    NA     
+tcltk        NA                    NA     
+tools        NA                    NA     
+translations NA                    NA     
+utils        NA                    NA     
+             MD5sum NeedsCompilation Built  
+glue         NA     "yes"            "4.0.3"
+magrittr     NA     "no"             "4.0.3"
+stringi      NA     "yes"            "4.0.3"
+stringr      NA     "no"             "4.0.3"
+base         NA     NA               "4.0.3"
+boot         NA     "no"             "4.0.3"
+class        NA     "yes"            "4.0.3"
+cluster      NA     "yes"            "4.0.3"
+codetools    NA     "no"             "4.0.3"
+compiler     NA     NA               "4.0.3"
+datasets     NA     NA               "4.0.3"
+foreign      NA     "yes"            "4.0.3"
+graphics     NA     "yes"            "4.0.3"
+grDevices    NA     "yes"            "4.0.3"
+grid         NA     "yes"            "4.0.3"
+KernSmooth   NA     "yes"            "4.0.3"
+lattice      NA     "yes"            "4.0.3"
+MASS         NA     "yes"            "4.0.3"
+Matrix       NA     "yes"            "4.0.3"
+methods      NA     "yes"            "4.0.3"
+mgcv         NA     "yes"            "4.0.3"
+nlme         NA     "yes"            "4.0.3"
+nnet         NA     "yes"            "4.0.3"
+parallel     NA     "yes"            "4.0.3"
+rpart        NA     "yes"            "4.0.3"
+spatial      NA     "yes"            "4.0.3"
+splines      NA     "yes"            "4.0.3"
+stats        NA     "yes"            "4.0.3"
+stats4       NA     NA               "4.0.3"
+survival     NA     "yes"            "4.0.3"
+tcltk        NA     "yes"            "4.0.3"
+tools        NA     "yes"            "4.0.3"
+translations NA     NA               "4.0.3"
+utils        NA     "yes"            "4.0.3"
+> installed.packages() #설치된 패키지 확인
+             Package       
+glue         "glue"        
+magrittr     "magrittr"    
+stringi      "stringi"     
+stringr      "stringr"     
+base         "base"        
+boot         "boot"        
+class        "class"       
+cluster      "cluster"     
+codetools    "codetools"   
+compiler     "compiler"    
+datasets     "datasets"    
+foreign      "foreign"     
+graphics     "graphics"    
+grDevices    "grDevices"   
+grid         "grid"        
+KernSmooth   "KernSmooth"  
+lattice      "lattice"     
+MASS         "MASS"        
+Matrix       "Matrix"      
+methods      "methods"     
+mgcv         "mgcv"        
+nlme         "nlme"        
+nnet         "nnet"        
+parallel     "parallel"    
+rpart        "rpart"       
+spatial      "spatial"     
+splines      "splines"     
+stats        "stats"       
+stats4       "stats4"      
+survival     "survival"    
+tcltk        "tcltk"       
+tools        "tools"       
+translations "translations"
+utils        "utils"       
+             LibPath                                     
+glue         "C:/Users/opus3/Documents/R/win-library/4.0"
+magrittr     "C:/Users/opus3/Documents/R/win-library/4.0"
+stringi      "C:/Users/opus3/Documents/R/win-library/4.0"
+stringr      "C:/Users/opus3/Documents/R/win-library/4.0"
+base         "C:/Program Files/R/R-4.0.3/library"        
+boot         "C:/Program Files/R/R-4.0.3/library"        
+class        "C:/Program Files/R/R-4.0.3/library"        
+cluster      "C:/Program Files/R/R-4.0.3/library"        
+codetools    "C:/Program Files/R/R-4.0.3/library"        
+compiler     "C:/Program Files/R/R-4.0.3/library"        
+datasets     "C:/Program Files/R/R-4.0.3/library"        
+foreign      "C:/Program Files/R/R-4.0.3/library"        
+graphics     "C:/Program Files/R/R-4.0.3/library"        
+grDevices    "C:/Program Files/R/R-4.0.3/library"        
+grid         "C:/Program Files/R/R-4.0.3/library"        
+KernSmooth   "C:/Program Files/R/R-4.0.3/library"        
+lattice      "C:/Program Files/R/R-4.0.3/library"        
+MASS         "C:/Program Files/R/R-4.0.3/library"        
+Matrix       "C:/Program Files/R/R-4.0.3/library"        
+methods      "C:/Program Files/R/R-4.0.3/library"        
+mgcv         "C:/Program Files/R/R-4.0.3/library"        
+nlme         "C:/Program Files/R/R-4.0.3/library"        
+nnet         "C:/Program Files/R/R-4.0.3/library"        
+parallel     "C:/Program Files/R/R-4.0.3/library"        
+rpart        "C:/Program Files/R/R-4.0.3/library"        
+spatial      "C:/Program Files/R/R-4.0.3/library"        
+splines      "C:/Program Files/R/R-4.0.3/library"        
+stats        "C:/Program Files/R/R-4.0.3/library"        
+stats4       "C:/Program Files/R/R-4.0.3/library"        
+survival     "C:/Program Files/R/R-4.0.3/library"        
+tcltk        "C:/Program Files/R/R-4.0.3/library"        
+tools        "C:/Program Files/R/R-4.0.3/library"        
+translations "C:/Program Files/R/R-4.0.3/library"        
+utils        "C:/Program Files/R/R-4.0.3/library"        
+             Version   Priority     
+glue         "1.4.2"   NA           
+magrittr     "1.5"     NA           
+stringi      "1.5.3"   NA           
+stringr      "1.4.0"   NA           
+base         "4.0.3"   "base"       
+boot         "1.3-25"  "recommended"
+class        "7.3-17"  "recommended"
+cluster      "2.1.0"   "recommended"
+codetools    "0.2-16"  "recommended"
+compiler     "4.0.3"   "base"       
+datasets     "4.0.3"   "base"       
+foreign      "0.8-80"  "recommended"
+graphics     "4.0.3"   "base"       
+grDevices    "4.0.3"   "base"       
+grid         "4.0.3"   "base"       
+KernSmooth   "2.23-17" "recommended"
+lattice      "0.20-41" "recommended"
+MASS         "7.3-53"  "recommended"
+Matrix       "1.2-18"  "recommended"
+methods      "4.0.3"   "base"       
+mgcv         "1.8-33"  "recommended"
+nlme         "3.1-149" "recommended"
+nnet         "7.3-14"  "recommended"
+parallel     "4.0.3"   "base"       
+rpart        "4.1-15"  "recommended"
+spatial      "7.3-12"  "recommended"
+splines      "4.0.3"   "base"       
+stats        "4.0.3"   "base"       
+stats4       "4.0.3"   "base"       
+survival     "3.2-7"   "recommended"
+tcltk        "4.0.3"   "base"       
+tools        "4.0.3"   "base"       
+translations "4.0.3"   NA           
+utils        "4.0.3"   "base"       
+             Depends                                          
+glue         "R (>= 3.2)"                                     
+magrittr     NA                                               
+stringi      "R (>= 2.14)"                                    
+stringr      "R (>= 3.1)"                                     
+base         NA                                               
+boot         "R (>= 3.0.0), graphics, stats"                  
+class        "R (>= 3.0.0), stats, utils"                     
+cluster      "R (>= 3.3.0)"                                   
+codetools    "R (>= 2.1)"                                     
+compiler     NA                                               
+datasets     NA                                               
+foreign      "R (>= 4.0.0)"                                   
+graphics     NA                                               
+grDevices    NA                                               
+grid         NA                                               
+KernSmooth   "R (>= 2.5.0), stats"                            
+lattice      "R (>= 3.0.0)"                                   
+MASS         "R (>= 3.1.0), grDevices, graphics, stats, utils"
+Matrix       "R (>= 3.2.0)"                                   
+methods      NA                                               
+mgcv         "R (>= 2.14.0), nlme (>= 3.1-64)"                
+nlme         "R (>= 3.4.0)"                                   
+nnet         "R (>= 3.0.0), stats, utils"                     
+parallel     NA                                               
+rpart        "R (>= 2.15.0), graphics, stats, grDevices"      
+spatial      "R (>= 3.0.0), graphics, stats, utils"           
+splines      NA                                               
+stats        NA                                               
+stats4       NA                                               
+survival     "R (>= 3.4.0)"                                   
+tcltk        NA                                               
+tools        NA                                               
+translations NA                                               
+utils        NA                                               
+             Imports                                           
+glue         "methods"                                         
+magrittr     NA                                                
+stringi      "tools, utils, stats"                             
+stringr      "glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)"   
+base         NA                                                
+boot         NA                                                
+class        "MASS"                                            
+cluster      "graphics, grDevices, stats, utils"               
+codetools    NA                                                
+compiler     NA                                                
+datasets     NA                                                
+foreign      "methods, utils, stats"                           
+graphics     "grDevices"                                       
+grDevices    NA                                                
+grid         "grDevices, utils"                                
+KernSmooth   NA                                                
+lattice      "grid, grDevices, graphics, stats, utils"         
+MASS         "methods"                                         
+Matrix       "methods, graphics, grid, stats, utils, lattice"  
+methods      "utils, stats"                                    
+mgcv         "methods, stats, graphics, Matrix, splines, utils"
+nlme         "graphics, stats, utils, lattice"                 
+nnet         NA                                                
+parallel     "tools, compiler"                                 
+rpart        NA                                                
+spatial      NA                                                
+splines      "graphics, stats"                                 
+stats        "utils, grDevices, graphics"                      
+stats4       "graphics, methods, stats"                        
+survival     "graphics, Matrix, methods, splines, stats, utils"
+tcltk        "utils"                                           
+tools        NA                                                
+translations NA                                                
+utils        NA                                                
+             LinkingTo
+glue         NA       
+magrittr     NA       
+stringi      NA       
+stringr      NA       
+base         NA       
+boot         NA       
+class        NA       
+cluster      NA       
+codetools    NA       
+compiler     NA       
+datasets     NA       
+foreign      NA       
+graphics     NA       
+grDevices    NA       
+grid         NA       
+KernSmooth   NA       
+lattice      NA       
+MASS         NA       
+Matrix       NA       
+methods      NA       
+mgcv         NA       
+nlme         NA       
+nnet         NA       
+parallel     NA       
+rpart        NA       
+spatial      NA       
+splines      NA       
+stats        NA       
+stats4       NA       
+survival     NA       
+tcltk        NA       
+tools        NA       
+translations NA       
+utils        NA       
+             Suggests                                                                                                                                                         
+glue         "testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,\nRSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,\nggplot2, dplyr, withr, vctrs (>= 0.3.0)"
+magrittr     "testthat, knitr"                                                                                                                                                
+stringi      NA                                                                                                                                                               
+stringr      "covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat"                                                                                                       
+base         "methods"                                                                                                                                                        
+boot         "MASS, survival"                                                                                                                                                 
+class        NA                                                                                                                                                               
+cluster      "MASS, Matrix"                                                                                                                                                   
+codetools    NA                                                                                                                                                               
+compiler     NA                                                                                                                                                               
+datasets     NA                                                                                                                                                               
+foreign      NA                                                                                                                                                               
+graphics     NA                                                                                                                                                               
+grDevices    "KernSmooth"                                                                                                                                                     
+grid         "lattice"                                                                                                                                                        
+KernSmooth   "MASS"                                                                                                                                                           
+lattice      "KernSmooth, MASS, latticeExtra"                                                                                                                                 
+MASS         "lattice, nlme, nnet, survival"                                                                                                                                  
+Matrix       "expm, MASS"                                                                                                                                                     
+methods      "codetools"                                                                                                                                                      
+mgcv         "parallel, survival, MASS"                                                                                                                                       
+nlme         "Hmisc, MASS"                                                                                                                                                    
+nnet         "MASS"                                                                                                                                                           
+parallel     "methods"                                                                                                                                                        
+rpart        "survival"                                                                                                                                                       
+spatial      "MASS"                                                                                                                                                           
+splines      "Matrix, methods"                                                                                                                                                
+stats        "MASS, Matrix, SuppDists, methods, stats4"                                                                                                                       
+stats4       NA                                                                                                                                                               
+survival     NA                                                                                                                                                               
+tcltk        NA                                                                                                                                                               
+tools        "codetools, methods, xml2, curl, commonmark"                                                                                                                     
+translations NA                                                                                                                                                               
+utils        "methods, xml2, commonmark"                                                                                                                                      
+             Enhances                               
+glue         NA                                     
+magrittr     NA                                     
+stringi      NA                                     
+stringr      NA                                     
+base         NA                                     
+boot         NA                                     
+class        NA                                     
+cluster      NA                                     
+codetools    NA                                     
+compiler     NA                                     
+datasets     NA                                     
+foreign      NA                                     
+graphics     NA                                     
+grDevices    NA                                     
+grid         NA                                     
+KernSmooth   NA                                     
+lattice      "chron"                                
+MASS         NA                                     
+Matrix       "MatrixModels, graph, SparseM, sfsmisc"
+methods      NA                                     
+mgcv         NA                                     
+nlme         NA                                     
+nnet         NA                                     
+parallel     "snow, nws, Rmpi"                      
+rpart        NA                                     
+spatial      NA                                     
+splines      NA                                     
+stats        NA                                     
+stats4       NA                                     
+survival     NA                                     
+tcltk        NA                                     
+tools        NA                                     
+translations NA                                     
+utils        NA                                     
+             License                    
+glue         "MIT + file LICENSE"       
+magrittr     "MIT + file LICENSE"       
+stringi      "file LICENSE"             
+stringr      "GPL-2 | file LICENSE"     
+base         "Part of R 4.0.3"          
+boot         "Unlimited"                
+class        "GPL-2 | GPL-3"            
+cluster      "GPL (>= 2)"               
+codetools    "GPL"                      
+compiler     "Part of R 4.0.3"          
+datasets     "Part of R 4.0.3"          
+foreign      "GPL (>= 2)"               
+graphics     "Part of R 4.0.3"          
+grDevices    "Part of R 4.0.3"          
+grid         "Part of R 4.0.3"          
+KernSmooth   "Unlimited"                
+lattice      "GPL (>= 2)"               
+MASS         "GPL-2 | GPL-3"            
+Matrix       "GPL (>= 2) | file LICENCE"
+methods      "Part of R 4.0.3"          
+mgcv         "GPL (>= 2)"               
+nlme         "GPL (>= 2) | file LICENCE"
+nnet         "GPL-2 | GPL-3"            
+parallel     "Part of R 4.0.3"          
+rpart        "GPL-2 | GPL-3"            
+spatial      "GPL-2 | GPL-3"            
+splines      "Part of R 4.0.3"          
+stats        "Part of R 4.0.3"          
+stats4       "Part of R 4.0.3"          
+survival     "LGPL (>= 2)"              
+tcltk        "Part of R 4.0.3"          
+tools        "Part of R 4.0.3"          
+translations "Part of R 4.0.3"          
+utils        "Part of R 4.0.3"          
+             License_is_FOSS
+glue         NA             
+magrittr     NA             
+stringi      NA             
+stringr      NA             
+base         NA             
+boot         NA             
+class        NA             
+cluster      NA             
+codetools    NA             
+compiler     NA             
+datasets     NA             
+foreign      NA             
+graphics     NA             
+grDevices    NA             
+grid         NA             
+KernSmooth   NA             
+lattice      NA             
+MASS         NA             
+Matrix       NA             
+methods      NA             
+mgcv         NA             
+nlme         NA             
+nnet         NA             
+parallel     NA             
+rpart        NA             
+spatial      NA             
+splines      NA             
+stats        NA             
+stats4       NA             
+survival     NA             
+tcltk        NA             
+tools        NA             
+translations NA             
+utils        NA             
+             License_restricts_use OS_type
+glue         NA                    NA     
+magrittr     NA                    NA     
+stringi      NA                    NA     
+stringr      NA                    NA     
+base         NA                    NA     
+boot         NA                    NA     
+class        NA                    NA     
+cluster      NA                    NA     
+codetools    NA                    NA     
+compiler     NA                    NA     
+datasets     NA                    NA     
+foreign      NA                    NA     
+graphics     NA                    NA     
+grDevices    NA                    NA     
+grid         NA                    NA     
+KernSmooth   NA                    NA     
+lattice      NA                    NA     
+MASS         NA                    NA     
+Matrix       NA                    NA     
+methods      NA                    NA     
+mgcv         NA                    NA     
+nlme         NA                    NA     
+nnet         NA                    NA     
+parallel     NA                    NA     
+rpart        NA                    NA     
+spatial      NA                    NA     
+splines      NA                    NA     
+stats        NA                    NA     
+stats4       NA                    NA     
+survival     NA                    NA     
+tcltk        NA                    NA     
+tools        NA                    NA     
+translations NA                    NA     
+utils        NA                    NA     
+             MD5sum NeedsCompilation Built  
+glue         NA     "yes"            "4.0.3"
+magrittr     NA     "no"             "4.0.3"
+stringi      NA     "yes"            "4.0.3"
+stringr      NA     "no"             "4.0.3"
+base         NA     NA               "4.0.3"
+boot         NA     "no"             "4.0.3"
+class        NA     "yes"            "4.0.3"
+cluster      NA     "yes"            "4.0.3"
+codetools    NA     "no"             "4.0.3"
+compiler     NA     NA               "4.0.3"
+datasets     NA     NA               "4.0.3"
+foreign      NA     "yes"            "4.0.3"
+graphics     NA     "yes"            "4.0.3"
+grDevices    NA     "yes"            "4.0.3"
+grid         NA     "yes"            "4.0.3"
+KernSmooth   NA     "yes"            "4.0.3"
+lattice      NA     "yes"            "4.0.3"
+MASS         NA     "yes"            "4.0.3"
+Matrix       NA     "yes"            "4.0.3"
+methods      NA     "yes"            "4.0.3"
+mgcv         NA     "yes"            "4.0.3"
+nlme         NA     "yes"            "4.0.3"
+nnet         NA     "yes"            "4.0.3"
+parallel     NA     "yes"            "4.0.3"
+rpart        NA     "yes"            "4.0.3"
+spatial      NA     "yes"            "4.0.3"
+splines      NA     "yes"            "4.0.3"
+stats        NA     "yes"            "4.0.3"
+stats4       NA     NA               "4.0.3"
+survival     NA     "yes"            "4.0.3"
+tcltk        NA     "yes"            "4.0.3"
+tools        NA     "yes"            "4.0.3"
+translations NA     NA               "4.0.3"
+utils        NA     "yes"            "4.0.3"
+> library(strings) #다운된 패키지 로드 코드
+Error in library(strings) : ‘strings’이라고 불리는 패키지가 없습니다
+> library(stringr) #다운된 패키지 로드 코드
+> search() #현재 로드된 패키지 확인
+ [1] ".GlobalEnv"        "package:stringr"  
+ [3] "tools:rstudio"     "package:stats"    
+ [5] "package:graphics"  "package:grDevices"
+ [7] "package:utils"     "package:datasets" 
+ [9] "package:methods"   "Autoloads"        
+[11] "package:base"     
+> library(stringr) #다운된 패키지 로드 코드
+> search() #현재 로드된 패키지 확인
+ [1] ".GlobalEnv"        "package:stringr"  
+ [3] "tools:rstudio"     "package:stats"    
+ [5] "package:graphics"  "package:grDevices"
+ [7] "package:utils"     "package:datasets" 
+ [9] "package:methods"   "Autoloads"        
+[11] "package:base"     
+> [1] "football"
+에러: 예기치 않은 '['입니다 in "["
+> 
+> 
+> 
+> year <- 2020
+> year
+[1] 2020
+> name <- "R프로그래밍"
+> \ㅜ믇
+에러: 예상하지 못한 입력입니다. in "\"
+> name
+[1] "R프로그래밍"
+> sports.name <-"football"
+> sports.number <- 13
+> sports.time <- 100
+> sports
+에러: 객체 'sports'를 찾을 수 없습니다
+> sports.name
+[1] "football"
+> sports.number
+[1] 13
+> 
+> names <- c("R프로그래밍", "파이썬", "자바", "유니티")
+> names
+[1] "R프로그래밍" "파이썬"      "자바"       
+[4] "유니티"     
+> names <- c("R프로그래밍", "파이썬", "자바", "유니티")
+> names
+[1] "R프로그래밍" "파이썬"      "자바"       
+[4] "유니티"     
+> 
+> is.charcter(year)
+Error in is.charcter(year) : 함수 "is.charcter"를 찾을 수 없습니다
+> is.character(year)
+[1] FALSE
+> result <- is.numerci(year)
+Error in is.numerci(year) : 함수 "is.numerci"를 찾을 수 없습니다
+> result <- is.numeric(year)
+> result
+[1] TRUE
+> value <- c(2, 3, 4)
+> result <- as.numeric(value) * 3
+> result
+[1]  6  9 12
+> value <- c(2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+> result
+[1]  6  9 12
+> result <- as.numeric(value) * 3
+> result
+ [1]  6  9 12 15 18 21 24 27 30 33 36
+> 
+> 
+> animal <- c("토끼", "거북이", "토끼", "거북이", "토끼")
+> Nanimal <- as.factor(animal)
+> table(Nanimal)
+Nanimal
+거북이   토끼 
+     2      3 
+> mode(Nanimal)
+[1] "numeric"
+> class(Nanimal)
+[1] "factor"
+> Oanimal <- factor(animal, levels  = c("거북이", "토끼"), ordered = T)
+> par(mfrow = c(1,2))
+> plot(Nanimal)
+> plot(Oanimal)
+> 
+> strptime("30-12-2050", format = ("%d-%m-%Y"))
+[1] "2050-12-30 KST"
+> 
+> getwd()
+[1] "C:/Users/opus3/Documents"
+> setwd("c:/workspace/rwork")
+> dir()
+character(0)
+> write.csv(value, "c:/workspace/rwork/sample.csv")
+> data <- read.csv("sample.csv", header=F)
+> data
+   V1 V2
+1  NA  x
+2   1  2
+3   2  3
+4   3  4
+5   4  5
+6   5  6
+7   6  7
+8   7  8
+9   8  9
+10  9 10
+11 10 11
+12 11 12
+> 
+> dir()
+[1] "sample.csv"
