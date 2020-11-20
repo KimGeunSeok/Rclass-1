@@ -1,0 +1,447 @@
+> install.packages("stringr")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/4.0’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/stringr_1.4.0.zip'을 시도합니다
+Content type 'application/zip' length 216472 bytes (211 KB)
+downloaded 211 KB
+
+package ‘stringr’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\RtmpmkBIBg\downloaded_packages
+> library(stringr)
+> str_extract("star13sun07moon03", "[0-9]{2}")
+[1] "13"
+> str_extract("star04sun07moon03", "[0-9]{2}")
+[1] "04"
+> str-
++ sd
+Error in str - sd : 이항연산자에 수치가 아닌 인수입니다
+> str_extract_all("star13sun07moon03", "[0-9]{2}")
+[[1]]
+[1] "13" "07" "03"
+
+> family <- "star2008sun2014moon2018"
+> str_extract_all(family, "[a-z]{3}")
+[[1]]
+[1] "sta" "sun" "moo"
+
+> str_extract_all(family, "[a-z]{3,}")
+[[1]]
+[1] "star" "sun"  "moon"
+
+> len <- str_length(family)
+> len
+[1] 23
+> family
+[1] "star2008sun2014moon2018"
+> string_c < str_c(family,"galaxy2006")
+에러: 객체 'string_c'를 찾을 수 없습니다
+> string_c <_ str_c(family,"galaxy2006")
+에러: 예상하지 못한 입력입니다. in "string_c <_"
+> string_c <- str_c(family,"galaxy2006")
+> string_c
+[1] "star2008sun2014moon2018galaxy2006"
+> string_vec <- c("star", "sun", "moon", "galaxy")
+> string_vec
+[1] "star"   "sun"    "moon"   "galaxy"
+> string_join <- paste(string_vec, collapse = ",")
+> stirng_join
+에러: 객체 'stirng_join'를 찾을 수 없습니다
+> string_join
+[1] "star,sun,moon,galaxy"
+> input_int <- scan()
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 
+Read 6 items
+> input_int
+[1] 1 2 3 4 5 6
+> input_int <- scan()
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 
+Read 5 items
+> input_char <- scan(what = charcater())
+Error in charcater() : 함수 "charcater"를 찾을 수 없습니다
+> input_char <- scan(what = character())
+1: anna
+2: yuriok
+3: mizuki
+4: sun
+5: 
+Read 4 items
+> input_char
+[1] "anna"   "yuriok" "mizuki" "sun"   
+> family <-data.frame()
+> family <- edit(family)
+> family
+  var1 var2 var3   var4
+1 star  sun moon galaxy
+2 2008 2014 2018   2006
+> getwd()
+[1] "C:/workspace/rstudio-master/data"
+> family <- read.table(file = "003familynotitle.txt")
+> family
+  V1   V2 V3
+1  1 star 13
+2  2  sun  7
+3  3 moon  3
+>  family <- read.table(file = "001.family.txt", header  = T)
+Error in file(file, "rt") : 커넥션을 열 수 없습니다
+추가정보: 경고메시지(들): 
+In file(file, "rt") :
+  파일 '001.family.txt'를 여는데 실패했습니다: No such file or directory
+>  family <- read.table(file = "001family.txt", header  = T)
+> family
+  번호 이름 나이
+1    1 star   13
+2    2  sun    7
+3    3 moon    3
+> family <- read.table(file.choose(), header = T)
+> family
+  번호 이름 나이
+1    1 star   13
+2    2  sun    7
+3    3 moon    3
+> family <- read.table("004familysemmi.txt", sep = ";", header = T)
+Error in file(file, "rt") : 커넥션을 열 수 없습니다
+추가정보: 경고메시지(들): 
+In file(file, "rt") :
+  파일 '004familysemmi.txt'를 여는데 실패했습니다: No such file or directory
+> family <- read.table("004familysemi.txt", sep = ";", header = T)
+> family
+  번호 이름 나이
+1    1 star   13
+2    2  sun    7
+3    3 moon    3
+> family <- read.table("005familytab.txt", sep = "\t", header = T)
+> family
+  번호 이름 나이
+1    1 star   13
+2    2  sun    7
+3    3 moon    3
+> family <- read.table("006familynodata.txt", header = T, na.strings = "-")
+> family
+  번호 이름 나이
+1    1 star   13
+2    2  sun    7
+3    3 moon   NA
+> family <- read.csv("007familycsv.txt", header = T, na.strings = "-")
+> family
+  번호 이름 나이
+1    1 star   13
+2    2  sun    7
+3    3 moon   NA
+> install.packages("readxl")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/4.0’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘assertthat’, ‘utf8’, ‘digest’, ‘rematch’, ‘cli’, ‘crayon’, ‘ellipsis’, ‘fansi’, ‘lifecycle’, ‘pillar’, ‘pkgconfig’, ‘rlang’, ‘vctrs’, ‘hms’, ‘prettyunits’, ‘R6’, ‘cellranger’, ‘Rcpp’, ‘tibble’, ‘progress’
+
+
+  There are binary versions available but the source versions are later:
+       binary source needs_compilation
+cli     2.1.0  2.2.0             FALSE
+pillar  1.4.6  1.4.7             FALSE
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/assertthat_0.2.1.zip'을 시도합니다
+Content type 'application/zip' length 54829 bytes (53 KB)
+downloaded 53 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/utf8_1.1.4.zip'을 시도합니다
+Content type 'application/zip' length 208248 bytes (203 KB)
+downloaded 203 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/digest_0.6.27.zip'을 시도합니다
+Content type 'application/zip' length 268469 bytes (262 KB)
+downloaded 262 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/rematch_1.0.1.zip'을 시도합니다
+Content type 'application/zip' length 16101 bytes (15 KB)
+downloaded 15 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/crayon_1.3.4.zip'을 시도합니다
+Content type 'application/zip' length 750510 bytes (732 KB)
+downloaded 732 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/ellipsis_0.3.1.zip'을 시도합니다
+Content type 'application/zip' length 45981 bytes (44 KB)
+downloaded 44 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/fansi_0.4.1.zip'을 시도합니다
+Content type 'application/zip' length 222861 bytes (217 KB)
+downloaded 217 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/lifecycle_0.2.0.zip'을 시도합니다
+Content type 'application/zip' length 101530 bytes (99 KB)
+downloaded 99 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/pkgconfig_2.0.3.zip'을 시도합니다
+Content type 'application/zip' length 22180 bytes (21 KB)
+downloaded 21 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/rlang_0.4.8.zip'을 시도합니다
+Content type 'application/zip' length 1137632 bytes (1.1 MB)
+downloaded 1.1 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/vctrs_0.3.5.zip'을 시도합니다
+Content type 'application/zip' length 1240063 bytes (1.2 MB)
+downloaded 1.2 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/hms_0.5.3.zip'을 시도합니다
+Content type 'application/zip' length 109389 bytes (106 KB)
+downloaded 106 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/prettyunits_1.1.1.zip'을 시도합니다
+Content type 'application/zip' length 37601 bytes (36 KB)
+downloaded 36 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/R6_2.5.0.zip'을 시도합니다
+Content type 'application/zip' length 83898 bytes (81 KB)
+downloaded 81 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/cellranger_1.1.0.zip'을 시도합니다
+Content type 'application/zip' length 104393 bytes (101 KB)
+downloaded 101 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/Rcpp_1.0.5.zip'을 시도합니다
+Content type 'application/zip' length 3265876 bytes (3.1 MB)
+downloaded 3.1 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/tibble_3.0.4.zip'을 시도합니다
+Content type 'application/zip' length 414989 bytes (405 KB)
+downloaded 405 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/progress_1.2.2.zip'을 시도합니다
+Content type 'application/zip' length 85775 bytes (83 KB)
+downloaded 83 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/readxl_1.3.1.zip'을 시도합니다
+Content type 'application/zip' length 1708928 bytes (1.6 MB)
+downloaded 1.6 MB
+
+package ‘assertthat’ successfully unpacked and MD5 sums checked
+package ‘utf8’ successfully unpacked and MD5 sums checked
+package ‘digest’ successfully unpacked and MD5 sums checked
+package ‘rematch’ successfully unpacked and MD5 sums checked
+package ‘crayon’ successfully unpacked and MD5 sums checked
+package ‘ellipsis’ successfully unpacked and MD5 sums checked
+package ‘fansi’ successfully unpacked and MD5 sums checked
+package ‘lifecycle’ successfully unpacked and MD5 sums checked
+package ‘pkgconfig’ successfully unpacked and MD5 sums checked
+package ‘rlang’ successfully unpacked and MD5 sums checked
+package ‘vctrs’ successfully unpacked and MD5 sums checked
+package ‘hms’ successfully unpacked and MD5 sums checked
+package ‘prettyunits’ successfully unpacked and MD5 sums checked
+package ‘R6’ successfully unpacked and MD5 sums checked
+package ‘cellranger’ successfully unpacked and MD5 sums checked
+package ‘Rcpp’ successfully unpacked and MD5 sums checked
+package ‘tibble’ successfully unpacked and MD5 sums checked
+package ‘progress’ successfully unpacked and MD5 sums checked
+package ‘readxl’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\RtmpmkBIBg\downloaded_packages
+installing the source packages ‘cli’, ‘pillar’
+
+URL 'https://cran.rstudio.com/src/contrib/cli_2.2.0.tar.gz'을 시도합니다
+Content type 'application/x-gzip' length 120676 bytes (117 KB)
+downloaded 117 KB
+
+URL 'https://cran.rstudio.com/src/contrib/pillar_1.4.7.tar.gz'을 시도합니다
+Content type 'application/x-gzip' length 113345 bytes (110 KB)
+downloaded 110 KB
+
+* installing *source* package 'cli' ...
+** 패키지 'cli'는 성공적으로 압축해제되었고, MD5 sums 이 확인되었습니다
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package 'cli'
+    finding HTML links ... 완료
+    ansi-styles                             html  
+    ansi_align                              html  
+    ansi_has_any                            html  
+    ansi_hide_cursor                        html  
+    ansi_nchar                              html  
+    ansi_regex                              html  
+    ansi_strip                              html  
+    ansi_strsplit                           html  
+    ansi_substr                             html  
+    ansi_substring                          html  
+    boxx                                    html  
+    builtin_theme                           html  
+    cat_line                                html  
+    cli_alert                               html  
+    cli_blockquote                          html  
+    cli_code                                html  
+    cli_div                                 html  
+    cli_dl                                  html  
+    cli_end                                 html  
+    cli_format                              html  
+    cli_format_method                       html  
+    cli_h1                                  html  
+    cli_li                                  html  
+    cli_list_themes                         html  
+    cli_ol                                  html  
+    cli_output_connection                   html  
+    cli_par                                 html  
+    cli_process_start                       html  
+    cli_rule                                html  
+    cli_sitrep                              html  
+    cli_status                              html  
+    cli_status_clear                        html  
+    cli_status_update                       html  
+    cli_text                                html  
+    cli_ul                                  html  
+    cli_vec                                 html  
+    cli_verbatim                            html  
+    combine_ansi_styles                     html  
+    console_width                           html  
+    containers                              html  
+    demo_spinners                           html  
+    get_spinner                             html  
+    inline-markup                           html  
+    is_ansi_tty                             html  
+    is_dynamic_tty                          html  
+    is_utf8_output                          html  
+    list_spinners                           html  
+    make_ansi_style                         html  
+    make_spinner                            html  
+    match_selector                          html  
+    match_selector_node                     html  
+    parse_selector                          html  
+    pluralization-helpers                   html  
+    pluralization                           html  
+    pluralize                               html  
+    rule                                    html  
+    simple_theme                            html  
+    start_app                               html  
+    style_hyperlink                         html  
+    symbol                                  html  
+    themes                                  html  
+    tree                                    html  
+    unicode-width-workaround                html  
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+*** arch - i386
+*** arch - x64
+** testing if installed package can be loaded from final location
+*** arch - i386
+*** arch - x64
+** testing if installed package keeps a record of temporary installation path
+* DONE (cli)
+* installing *source* package 'pillar' ...
+** 패키지 'pillar'는 성공적으로 압축해제되었고, MD5 sums 이 확인되었습니다
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package 'pillar'
+    finding HTML links ... 완료
+    align                                   html  
+    colonnade                               html  
+    deprecated                              html  
+    dim_desc                                html  
+    expect_known_display                    html  
+    extra_cols                              html  
+    format_type_sum                         html  
+    get_extent                              html  
+    new_ornament                            html  
+    finding level-2 HTML links ... done
+
+    new_pillar_shaft                        html  
+    new_pillar_title                        html  
+    new_pillar_type                         html  
+    pillar-package                          html  
+    pillar                                  html  
+    pillar_shaft                            html  
+    style_subtle                            html  
+    type_sum                                html  
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+*** arch - i386
+*** arch - x64
+** testing if installed package can be loaded from final location
+*** arch - i386
+*** arch - x64
+** testing if installed package keeps a record of temporary installation path
+* DONE (pillar)
+
+The downloaded source packages are in
+	‘C:\Users\opus3\AppData\Local\Temp\RtmpmkBIBg\downloaded_packages’
+> library(readxl)
+> family <- read_excel("path = 008familyexcel.xlsx:, sheet = "family)
+에러: 예상하지 못한 기호(symbol)입니다. in "family <- read_excel("path = 008familyexcel.xlsx:, sheet = "family"
+> family <- read_excel("path = 008familyexcel.xlsx", sheet = "family)
++ family <- read_excel("path = 008familyexcel.xlsx", sheet = "family")
+에러: 예상하지 못한 기호(symbol)입니다. in:
+"family <- read_excel("path = 008familyexcel.xlsx", sheet = "family)
+family <- read_excel("path"
+> family <- read_excel(path = "008familyexcel.xlsx", sheet = "family")
+> family
+# A tibble: 4 x 3
+   번호 이름    나이
+  <dbl> <chr>  <dbl>
+1     1 star      13
+2     2 sun        7
+3     3 moon       3
+4     4 galaxy     6
+> star <- 13
+> sun <- 7
+> moon <- 3
+> cat("star"s는" , star , "입니다")
+에러: 예상하지 못한 기호(symbol)입니다. in "cat("star"s는"
+> cat("star는" , star , "입니다")
+star는 13 입니다
+> print(sun)
+[1] 7
+> getwd()
+[1] "C:/workspace/rstudio-master/data"
+> family <- read.table(file = "001family.txt", header = T)
+> write.table(family, "output.txt", row.names = F)
+> df <- read.table(family, "output.txt", sep = "", header = T)
+Error in read.table(family, "output.txt", sep = "", header = T) : 
+  'file'은 반드시 문자열 또는 연결이어야 합니다
+> df <- read.table(file = "output.txt", sep = "", header = T)
+> df
+  번호 이름 나이
+1    1 star   13
+2    2  sun    7
+3    3 moon    3
+> write.csv(family, "output.csv", row.names = F, quote = F)
+> install.packages("writexl")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/4.0’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/windows/contrib/4.0/writexl_1.3.1.zip'을 시도합니다
+Content type 'application/zip' length 286025 bytes (279 KB)
+downloaded 279 KB
+
+package ‘writexl’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\RtmpmkBIBg\downloaded_packages
+> library(writexl)
+> write_xlsx(x = family, path = "output.xlsx", col_names = T)
