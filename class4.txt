@@ -1,0 +1,774 @@
+> install.packages ("https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip", repos =
++                         NULL
++ install.packages ("https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip", repos = NULL
+에러: 예상하지 못한 기호(symbol)입니다. in:
+"                        NULL
+install.packages"
+> install.packages ("https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip", repos = NULL
++ 
++ 
++ dsfgfds
+에러: 예상하지 못한 기호(symbol)입니다. in:
+"
+dsfgfds"
+> install.packages ("https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip", repos = NULL)
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip'을 시도합니다
+Warning in install.packages :
+  cannot open URL 'https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip': HTTP status was '404 Not Found'
+Error in download.file(p, destfile, method, mode = "wb", ...) : 
+  URL 'https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip'를 열 수 없습니다
+> > install.packages("Sejong")
+에러: 예기치 않은 '>'입니다 in ">"
+> install.packages("Sejong")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/Sejong_0.01.zip'을 시도합니다
+Content type 'application/zip' length 1617819 bytes (1.5 MB)
+downloaded 1.5 MB
+
+package ‘Sejong’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages
+> install.packages("https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip", repos = NULL)
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip'을 시도합니다
+Warning in install.packages :
+  cannot open URL 'https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip': HTTP status was '404 Not Found'
+Error in download.file(p, destfile, method, mode = "wb", ...) : 
+  URL 'https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip'를 열 수 없습니다
+> install.packages("https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip", repos = NULL)
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip'을 시도합니다
+Warning in install.packages :
+  cannot open URL 'https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip': HTTP status was '404 Not Found'
+Error in download.file(p, destfile, method, mode = "wb", ...) : 
+  URL 'https://cran.rstudio.com/bin/ contrib /3.4/KoNLP_0.80.1.zip'를 열 수 없습니다
+> install.packages("https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip", repos = NULL)
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip'을 시도합니다
+Warning in install.packages :
+  cannot open URL 'https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip': HTTP status was '404 Not Found'
+Error in download.file(p, destfile, method, mode = "wb", ...) : 
+  URL 'https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip'를 열 수 없습니다
+> install.packages("https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip",repos = NULL)
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip'을 시도합니다
+Warning in install.packages :
+  cannot open URL 'https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip': HTTP status was '404 Not Found'
+Error in download.file(p, destfile, method, mode = "wb", ...) : 
+  URL 'https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip'를 열 수 없습니다
+> install.packages("https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip",repos = NULL)
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip'을 시도합니다
+Warning in install.packages :
+  cannot open URL 'https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip': HTTP status was '404 Not Found'
+Error in download.file(p, destfile, method, mode = "wb", ...) : 
+  URL 'https://cran.rstudio.com/bin/contrib/3.4/KoNLP_0.80.1.zip'를 열 수 없습니다
+> install.packages("https://cran.rstudio.com/bin/windows/contrib/3.4/KoNLP_0.80.1.zip", repos = NULL)
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.4/KoNLP_0.80.1.zip'을 시도합니다
+Content type 'application/zip' length 5867237 bytes (5.6 MB)
+downloaded 5.6 MB
+
+package ‘KoNLP’ successfully unpacked and MD5 sums checked
+> install.packages("wordcloud")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘RColorBrewer’, ‘Rcpp’
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/RColorBrewer_1.1-2.zip'을 시도합니다
+Content type 'application/zip' length 55569 bytes (54 KB)
+downloaded 54 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/Rcpp_1.0.5.zip'을 시도합니다
+Content type 'application/zip' length 3125531 bytes (3.0 MB)
+downloaded 3.0 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/wordcloud_2.6.zip'을 시도합니다
+Content type 'application/zip' length 599293 bytes (585 KB)
+downloaded 585 KB
+
+package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+package ‘Rcpp’ successfully unpacked and MD5 sums checked
+package ‘wordcloud’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages
+> install.packages("tm")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘NLP’, ‘slam’, ‘xml2’, ‘BH’
+
+
+  There is a binary version available but the
+  source version is later:
+   binary source needs_compilation
+tm  0.7-7  0.7-8              TRUE
+
+  Binaries will be installed
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/NLP_0.2-1.zip'을 시도합니다
+Content type 'application/zip' length 390949 bytes (381 KB)
+downloaded 381 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/slam_0.1-47.zip'을 시도합니다
+Content type 'application/zip' length 211121 bytes (206 KB)
+downloaded 206 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/xml2_1.3.2.zip'을 시도합니다
+Content type 'application/zip' length 3178166 bytes (3.0 MB)
+downloaded 3.0 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/BH_1.72.0-3.zip'을 시도합니다
+Content type 'application/zip' length 18270741 bytes (17.4 MB)
+downloaded 17.4 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/tm_0.7-7.zip'을 시도합니다
+Content type 'application/zip' length 1370369 bytes (1.3 MB)
+downloaded 1.3 MB
+
+package ‘NLP’ successfully unpacked and MD5 sums checked
+package ‘slam’ successfully unpacked and MD5 sums checked
+package ‘xml2’ successfully unpacked and MD5 sums checked
+package ‘BH’ successfully unpacked and MD5 sums checked
+package ‘tm’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages
+> 
+> 
+> install.packages("hash")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/hash_2.2.6.1.zip'을 시도합니다
+Content type 'application/zip' length 126228 bytes (123 KB)
+downloaded 123 KB
+
+package ‘hash’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages
+> dsafdsf
+에러: 객체 'dsafdsf'를 찾을 수 없습니다
+> install.packages("hash")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/hash_2.2.6.1.zip'을 시도합니다
+Content type 'application/zip' length 126228 bytes (123 KB)
+downloaded 123 KB
+
+package ‘hash’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages
+> install.packages("tau")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/tau_0.0-21.zip'을 시도합니다
+Content type 'application/zip' length 190037 bytes (185 KB)
+downloaded 185 KB
+
+package ‘tau’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages
+> install.packages("RSQLite")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘ellipsis’, ‘glue’, ‘bit’, ‘rlang’, ‘vctrs’, ‘digest’, ‘bit64’, ‘blob’, ‘DBI’, ‘memoise’, ‘pkgconfig’, ‘plogr’
+
+
+  There is a binary version available but the
+  source version is later:
+      binary source needs_compilation
+vctrs  0.3.4  0.3.5              TRUE
+
+  Binaries will be installed
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/ellipsis_0.3.1.zip'을 시도합니다
+Content type 'application/zip' length 46054 bytes (44 KB)
+downloaded 44 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/glue_1.4.2.zip'을 시도합니다
+Content type 'application/zip' length 154169 bytes (150 KB)
+downloaded 150 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/bit_4.0.4.zip'을 시도합니다
+Content type 'application/zip' length 641611 bytes (626 KB)
+downloaded 626 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/rlang_0.4.8.zip'을 시도합니다
+Content type 'application/zip' length 1150544 bytes (1.1 MB)
+downloaded 1.1 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/vctrs_0.3.4.zip'을 시도합니다
+Content type 'application/zip' length 1223953 bytes (1.2 MB)
+downloaded 1.2 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/digest_0.6.27.zip'을 시도합니다
+Content type 'application/zip' length 275992 bytes (269 KB)
+downloaded 269 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/bit64_4.0.5.zip'을 시도합니다
+Content type 'application/zip' length 573686 bytes (560 KB)
+downloaded 560 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/blob_1.2.1.zip'을 시도합니다
+Content type 'application/zip' length 47713 bytes (46 KB)
+downloaded 46 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/DBI_1.1.0.zip'을 시도합니다
+Content type 'application/zip' length 607280 bytes (593 KB)
+downloaded 593 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/memoise_1.1.0.zip'을 시도합니다
+Content type 'application/zip' length 36763 bytes (35 KB)
+downloaded 35 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/pkgconfig_2.0.3.zip'을 시도합니다
+Content type 'application/zip' length 22224 bytes (21 KB)
+downloaded 21 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/plogr_0.2.0.zip'을 시도합니다
+Content type 'application/zip' length 18851 bytes (18 KB)
+downloaded 18 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/RSQLite_2.2.1.zip'을 시도합니다
+Content type 'application/zip' length 2313241 bytes (2.2 MB)
+downloaded 2.2 MB
+
+package ‘ellipsis’ successfully unpacked and MD5 sums checked
+package ‘glue’ successfully unpacked and MD5 sums checked
+package ‘bit’ successfully unpacked and MD5 sums checked
+package ‘rlang’ successfully unpacked and MD5 sums checked
+package ‘vctrs’ successfully unpacked and MD5 sums checked
+package ‘digest’ successfully unpacked and MD5 sums checked
+package ‘bit64’ successfully unpacked and MD5 sums checked
+package ‘blob’ successfully unpacked and MD5 sums checked
+package ‘DBI’ successfully unpacked and MD5 sums checked
+package ‘memoise’ successfully unpacked and MD5 sums checked
+package ‘pkgconfig’ successfully unpacked and MD5 sums checked
+package ‘plogr’ successfully unpacked and MD5 sums checked
+package ‘RSQLite’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages
+> install.packages("rJava")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+
+  There is a binary version available but the
+  source version is later:
+      binary source needs_compilation
+rJava 0.9-12 0.9-13              TRUE
+
+  Binaries will be installed
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/rJava_0.9-12.zip'을 시도합니다
+Content type 'application/zip' length 1214816 bytes (1.2 MB)
+downloaded 1.2 MB
+
+package ‘rJava’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages
+> install.packages("devtools")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/opus3/Documents/R/win-library/3.6’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘utf8’, ‘lifecycle’, ‘pillar’, ‘sys’, ‘ini’, ‘tibble’, ‘ps’, ‘lazyeval’, ‘base64enc’, ‘later’, ‘askpass’, ‘evaluate’, ‘highr’, ‘markdown’, ‘clipr’, ‘crayon’, ‘curl’, ‘fs’, ‘gh’, ‘git2r’, ‘purrr’, ‘rematch2’, ‘rprojroot’, ‘whisker’, ‘yaml’, ‘processx’, ‘R6’, ‘assertthat’, ‘fansi’, ‘rex’, ‘htmltools’, ‘htmlwidgets’, ‘magrittr’, ‘crosstalk’, ‘promises’, ‘mime’, ‘openssl’, ‘prettyunits’, ‘xopen’, ‘brew’, ‘commonmark’, ‘knitr’, ‘stringr’, ‘usethis’, ‘callr’, ‘cli’, ‘covr’, ‘desc’, ‘DT’, ‘httr’, ‘jsonlite’, ‘pkgbuild’, ‘pkgload’, ‘rcmdcheck’, ‘remotes’, ‘roxygen2’, ‘rstudioapi’, ‘rversions’, ‘sessioninfo’, ‘withr’
+
+
+  There are binary versions available but the
+  source versions are later:
+         binary source needs_compilation
+pillar    1.4.6  1.4.7             FALSE
+magrittr    1.5  2.0.1              TRUE
+cli       2.1.0  2.2.0             FALSE
+
+  Binaries will be installed
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/utf8_1.1.4.zip'을 시도합니다
+Content type 'application/zip' length 214933 bytes (209 KB)
+downloaded 209 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/lifecycle_0.2.0.zip'을 시도합니다
+Content type 'application/zip' length 101643 bytes (99 KB)
+downloaded 99 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/sys_3.4.zip'을 시도합니다
+Content type 'application/zip' length 59867 bytes (58 KB)
+downloaded 58 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/ini_0.3.1.zip'을 시도합니다
+Content type 'application/zip' length 15701 bytes (15 KB)
+downloaded 15 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/tibble_3.0.4.zip'을 시도합니다
+Content type 'application/zip' length 415275 bytes (405 KB)
+downloaded 405 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/ps_1.4.0.zip'을 시도합니다
+Content type 'application/zip' length 370641 bytes (361 KB)
+downloaded 361 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/lazyeval_0.2.2.zip'을 시도합니다
+Content type 'application/zip' length 172611 bytes (168 KB)
+downloaded 168 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/base64enc_0.1-3.zip'을 시도합니다
+Content type 'application/zip' length 43488 bytes (42 KB)
+downloaded 42 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/later_1.1.0.1.zip'을 시도합니다
+Content type 'application/zip' length 685525 bytes (669 KB)
+downloaded 669 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/askpass_1.1.zip'을 시도합니다
+Content type 'application/zip' length 64689 bytes (63 KB)
+downloaded 63 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/evaluate_0.14.zip'을 시도합니다
+Content type 'application/zip' length 76865 bytes (75 KB)
+downloaded 75 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/highr_0.8.zip'을 시도합니다
+Content type 'application/zip' length 48709 bytes (47 KB)
+downloaded 47 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/markdown_1.1.zip'을 시도합니다
+Content type 'application/zip' length 190036 bytes (185 KB)
+downloaded 185 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/clipr_0.7.1.zip'을 시도합니다
+Content type 'application/zip' length 52634 bytes (51 KB)
+downloaded 51 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/crayon_1.3.4.zip'을 시도합니다
+Content type 'application/zip' length 749954 bytes (732 KB)
+downloaded 732 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/curl_4.3.zip'을 시도합니다
+Content type 'application/zip' length 4127981 bytes (3.9 MB)
+downloaded 3.9 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/fs_1.5.0.zip'을 시도합니다
+Content type 'application/zip' length 810447 bytes (791 KB)
+downloaded 791 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/gh_1.1.0.zip'을 시도합니다
+Content type 'application/zip' length 110701 bytes (108 KB)
+downloaded 108 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/git2r_0.27.1.zip'을 시도합니다
+Content type 'application/zip' length 3684780 bytes (3.5 MB)
+downloaded 3.5 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/purrr_0.3.4.zip'을 시도합니다
+Content type 'application/zip' length 430890 bytes (420 KB)
+downloaded 420 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/rematch2_2.1.2.zip'을 시도합니다
+Content type 'application/zip' length 47563 bytes (46 KB)
+downloaded 46 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/rprojroot_2.0.2.zip'을 시도합니다
+Content type 'application/zip' length 105044 bytes (102 KB)
+downloaded 102 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/whisker_0.4.zip'을 시도합니다
+Content type 'application/zip' length 83242 bytes (81 KB)
+downloaded 81 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/yaml_2.2.1.zip'을 시도합니다
+Content type 'application/zip' length 206516 bytes (201 KB)
+downloaded 201 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/processx_3.4.4.zip'을 시도합니다
+Content type 'application/zip' length 488921 bytes (477 KB)
+downloaded 477 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/R6_2.5.0.zip'을 시도합니다
+Content type 'application/zip' length 84128 bytes (82 KB)
+downloaded 82 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/assertthat_0.2.1.zip'을 시도합니다
+Content type 'application/zip' length 55032 bytes (53 KB)
+downloaded 53 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/fansi_0.4.1.zip'을 시도합니다
+Content type 'application/zip' length 223847 bytes (218 KB)
+downloaded 218 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/rex_1.2.0.zip'을 시도합니다
+Content type 'application/zip' length 125469 bytes (122 KB)
+downloaded 122 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/htmltools_0.5.0.zip'을 시도합니다
+Content type 'application/zip' length 232782 bytes (227 KB)
+downloaded 227 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/htmlwidgets_1.5.2.zip'을 시도합니다
+Content type 'application/zip' length 269821 bytes (263 KB)
+downloaded 263 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/magrittr_1.5.zip'을 시도합니다
+Content type 'application/zip' length 157669 bytes (153 KB)
+downloaded 153 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/crosstalk_1.1.0.1.zip'을 시도합니다
+Content type 'application/zip' length 778307 bytes (760 KB)
+downloaded 760 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/promises_1.1.1.zip'을 시도합니다
+Content type 'application/zip' length 1785182 bytes (1.7 MB)
+downloaded 1.7 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/mime_0.9.zip'을 시도합니다
+Content type 'application/zip' length 48395 bytes (47 KB)
+downloaded 47 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/openssl_1.4.3.zip'을 시도합니다
+Content type 'application/zip' length 3994715 bytes (3.8 MB)
+downloaded 3.8 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/prettyunits_1.1.1.zip'을 시도합니다
+Content type 'application/zip' length 37626 bytes (36 KB)
+downloaded 36 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/xopen_1.0.0.zip'을 시도합니다
+Content type 'application/zip' length 24687 bytes (24 KB)
+downloaded 24 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/brew_1.0-6.zip'을 시도합니다
+Content type 'application/zip' length 113871 bytes (111 KB)
+downloaded 111 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/commonmark_1.7.zip'을 시도합니다
+Content type 'application/zip' length 265807 bytes (259 KB)
+downloaded 259 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/knitr_1.30.zip'을 시도합니다
+Content type 'application/zip' length 1443940 bytes (1.4 MB)
+downloaded 1.4 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/stringr_1.4.0.zip'을 시도합니다
+Content type 'application/zip' length 216348 bytes (211 KB)
+downloaded 211 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/usethis_1.6.3.zip'을 시도합니다
+Content type 'application/zip' length 603819 bytes (589 KB)
+downloaded 589 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/callr_3.5.1.zip'을 시도합니다
+Content type 'application/zip' length 388856 bytes (379 KB)
+downloaded 379 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/covr_3.5.1.zip'을 시도합니다
+Content type 'application/zip' length 306015 bytes (298 KB)
+downloaded 298 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/desc_1.2.0.zip'을 시도합니다
+Content type 'application/zip' length 289071 bytes (282 KB)
+downloaded 282 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/DT_0.16.zip'을 시도합니다
+Content type 'application/zip' length 1749846 bytes (1.7 MB)
+downloaded 1.7 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/httr_1.4.2.zip'을 시도합니다
+Content type 'application/zip' length 518419 bytes (506 KB)
+downloaded 506 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/jsonlite_1.7.1.zip'을 시도합니다
+Content type 'application/zip' length 1169598 bytes (1.1 MB)
+downloaded 1.1 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/pkgbuild_1.1.0.zip'을 시도합니다
+Content type 'application/zip' length 141518 bytes (138 KB)
+downloaded 138 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/pkgload_1.1.0.zip'을 시도합니다
+Content type 'application/zip' length 163183 bytes (159 KB)
+downloaded 159 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/rcmdcheck_1.3.3.zip'을 시도합니다
+Content type 'application/zip' length 135373 bytes (132 KB)
+downloaded 132 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/remotes_2.2.0.zip'을 시도합니다
+Content type 'application/zip' length 388686 bytes (379 KB)
+downloaded 379 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/roxygen2_7.1.1.zip'을 시도합니다
+Content type 'application/zip' length 1175699 bytes (1.1 MB)
+downloaded 1.1 MB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/rstudioapi_0.13.zip'을 시도합니다
+Content type 'application/zip' length 302316 bytes (295 KB)
+downloaded 295 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/rversions_2.0.2.zip'을 시도합니다
+Content type 'application/zip' length 68754 bytes (67 KB)
+downloaded 67 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/sessioninfo_1.1.1.zip'을 시도합니다
+Content type 'application/zip' length 46936 bytes (45 KB)
+downloaded 45 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/withr_2.3.0.zip'을 시도합니다
+Content type 'application/zip' length 208148 bytes (203 KB)
+downloaded 203 KB
+
+URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/devtools_2.3.2.zip'을 시도합니다
+Content type 'application/zip' length 339840 bytes (331 KB)
+downloaded 331 KB
+
+package ‘utf8’ successfully unpacked and MD5 sums checked
+package ‘lifecycle’ successfully unpacked and MD5 sums checked
+package ‘sys’ successfully unpacked and MD5 sums checked
+package ‘ini’ successfully unpacked and MD5 sums checked
+package ‘tibble’ successfully unpacked and MD5 sums checked
+package ‘ps’ successfully unpacked and MD5 sums checked
+package ‘lazyeval’ successfully unpacked and MD5 sums checked
+package ‘base64enc’ successfully unpacked and MD5 sums checked
+package ‘later’ successfully unpacked and MD5 sums checked
+package ‘askpass’ successfully unpacked and MD5 sums checked
+package ‘evaluate’ successfully unpacked and MD5 sums checked
+package ‘highr’ successfully unpacked and MD5 sums checked
+package ‘markdown’ successfully unpacked and MD5 sums checked
+package ‘clipr’ successfully unpacked and MD5 sums checked
+package ‘crayon’ successfully unpacked and MD5 sums checked
+package ‘curl’ successfully unpacked and MD5 sums checked
+package ‘fs’ successfully unpacked and MD5 sums checked
+package ‘gh’ successfully unpacked and MD5 sums checked
+package ‘git2r’ successfully unpacked and MD5 sums checked
+package ‘purrr’ successfully unpacked and MD5 sums checked
+package ‘rematch2’ successfully unpacked and MD5 sums checked
+package ‘rprojroot’ successfully unpacked and MD5 sums checked
+package ‘whisker’ successfully unpacked and MD5 sums checked
+package ‘yaml’ successfully unpacked and MD5 sums checked
+package ‘processx’ successfully unpacked and MD5 sums checked
+package ‘R6’ successfully unpacked and MD5 sums checked
+package ‘assertthat’ successfully unpacked and MD5 sums checked
+package ‘fansi’ successfully unpacked and MD5 sums checked
+package ‘rex’ successfully unpacked and MD5 sums checked
+package ‘htmltools’ successfully unpacked and MD5 sums checked
+package ‘htmlwidgets’ successfully unpacked and MD5 sums checked
+package ‘magrittr’ successfully unpacked and MD5 sums checked
+package ‘crosstalk’ successfully unpacked and MD5 sums checked
+package ‘promises’ successfully unpacked and MD5 sums checked
+package ‘mime’ successfully unpacked and MD5 sums checked
+package ‘openssl’ successfully unpacked and MD5 sums checked
+package ‘prettyunits’ successfully unpacked and MD5 sums checked
+package ‘xopen’ successfully unpacked and MD5 sums checked
+package ‘brew’ successfully unpacked and MD5 sums checked
+package ‘commonmark’ successfully unpacked and MD5 sums checked
+package ‘knitr’ successfully unpacked and MD5 sums checked
+package ‘stringr’ successfully unpacked and MD5 sums checked
+package ‘usethis’ successfully unpacked and MD5 sums checked
+package ‘callr’ successfully unpacked and MD5 sums checked
+package ‘covr’ successfully unpacked and MD5 sums checked
+package ‘desc’ successfully unpacked and MD5 sums checked
+package ‘DT’ successfully unpacked and MD5 sums checked
+package ‘httr’ successfully unpacked and MD5 sums checked
+package ‘jsonlite’ successfully unpacked and MD5 sums checked
+package ‘pkgbuild’ successfully unpacked and MD5 sums checked
+package ‘pkgload’ successfully unpacked and MD5 sums checked
+package ‘rcmdcheck’ successfully unpacked and MD5 sums checked
+package ‘remotes’ successfully unpacked and MD5 sums checked
+package ‘roxygen2’ successfully unpacked and MD5 sums checked
+package ‘rstudioapi’ successfully unpacked and MD5 sums checked
+package ‘rversions’ successfully unpacked and MD5 sums checked
+package ‘sessioninfo’ successfully unpacked and MD5 sums checked
+package ‘withr’ successfully unpacked and MD5 sums checked
+package ‘devtools’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages
+installing the source packages ‘pillar’, ‘cli’
+
+URL 'https://cran.rstudio.com/src/contrib/pillar_1.4.7.tar.gz'을 시도합니다
+Content type 'application/x-gzip' length 113345 bytes (110 KB)
+downloaded 110 KB
+
+URL 'https://cran.rstudio.com/src/contrib/cli_2.2.0.tar.gz'을 시도합니다
+Content type 'application/x-gzip' length 120676 bytes (117 KB)
+downloaded 117 KB
+
+* installing *source* package 'cli' ...
+** 패키지 'cli'는 성공적으로 압축해제되었고, MD5 sums 이 확인되었습니다
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package 'cli'
+    finding HTML links ... 완료
+    ansi-styles                             html  
+    ansi_align                              html  
+    ansi_has_any                            html  
+    ansi_hide_cursor                        html  
+    ansi_nchar                              html  
+    ansi_regex                              html  
+    ansi_strip                              html  
+    ansi_strsplit                           html  
+    ansi_substr                             html  
+    ansi_substring                          html  
+    boxx                                    html  
+    builtin_theme                           html  
+    cat_line                                html  
+    cli_alert                               html  
+    cli_blockquote                          html  
+    cli_code                                html  
+    cli_div                                 html  
+    cli_dl                                  html  
+    cli_end                                 html  
+    cli_format                              html  
+    cli_format_method                       html  
+    cli_h1                                  html  
+    cli_li                                  html  
+    cli_list_themes                         html  
+    cli_ol                                  html  
+    cli_output_connection                   html  
+    cli_par                                 html  
+    cli_process_start                       html  
+    cli_rule                                html  
+    cli_sitrep                              html  
+    cli_status                              html  
+    cli_status_clear                        html  
+    cli_status_update                       html  
+    cli_text                                html  
+    cli_ul                                  html  
+    cli_vec                                 html  
+    cli_verbatim                            html  
+    combine_ansi_styles                     html  
+    console_width                           html  
+    containers                              html  
+    demo_spinners                           html  
+    get_spinner                             html  
+    inline-markup                           html  
+    is_ansi_tty                             html  
+    is_dynamic_tty                          html  
+    is_utf8_output                          html  
+    list_spinners                           html  
+    make_ansi_style                         html  
+    make_spinner                            html  
+    match_selector                          html  
+    match_selector_node                     html  
+    parse_selector                          html  
+    pluralization-helpers                   html  
+    pluralization                           html  
+    pluralize                               html  
+    rule                                    html  
+    simple_theme                            html  
+    start_app                               html  
+    style_hyperlink                         html  
+    symbol                                  html  
+    themes                                  html  
+    tree                                    html  
+    unicode-width-workaround                html  
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+*** arch - i386
+*** arch - x64
+** testing if installed package can be loaded from final location
+*** arch - i386
+*** arch - x64
+** testing if installed package keeps a record of temporary installation path
+* DONE (cli)
+* installing *source* package 'pillar' ...
+** 패키지 'pillar'는 성공적으로 압축해제되었고, MD5 sums 이 확인되었습니다
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package 'pillar'
+    finding HTML links ... 완료
+    align                                   html  
+    colonnade                               html  
+    deprecated                              html  
+    dim_desc                                html  
+    expect_known_display                    html  
+    extra_cols                              html  
+    format_type_sum                         html  
+    get_extent                              html  
+    new_ornament                            html  
+    finding level-2 HTML links ... done
+
+    new_pillar_shaft                        html  
+    new_pillar_title                        html  
+    new_pillar_type                         html  
+    pillar-package                          html  
+    pillar                                  html  
+    pillar_shaft                            html  
+    style_subtle                            html  
+    type_sum                                html  
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+*** arch - i386
+*** arch - x64
+** testing if installed package can be loaded from final location
+*** arch - i386
+*** arch - x64
+** testing if installed package keeps a record of temporary installation path
+* DONE (pillar)
+
+The downloaded source packages are in
+	‘C:\Users\opus3\AppData\Local\Temp\Rtmpuq4rYB\downloaded_packages’
